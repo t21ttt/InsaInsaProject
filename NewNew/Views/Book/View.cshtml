@@ -1,0 +1,90 @@
+﻿@model NewNew.Models.UpdateBookViewModel
+
+
+<h1>Edit Book</h1>
+
+<div class="card mb-4 mt-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+       Edit Books
+        <a href="@Url.Action("Index", "Book")" class="float-end btn btn-sm btn-success">View All</a>
+
+    </div>
+
+    <div class="card-body">
+       
+        <form method="post" action="View" class="mt-5">
+            <table class="table table-bordered">
+         <tr>
+                    <th>Book Id</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BookId" reedonly />
+                    </td>
+         </tr>
+                <tr>
+                    <th>Book Title</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookTitle" reedonly />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Book ISBN</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookISBN" reedonly />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Book Descreption</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookDiscreption" reedonly />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Book Amount</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookAmount" reedonly />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Book Category</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookCategoryId" reedonly />
+                    </td>
+                </tr>
+
+
+                <tr>
+                        <td colspan="2">
+                            <input type="submit"  class="btn btn-primary" value="Submit"/>
+                        <button type="submit" class="btn btn-danger" asp-action="Delete"
+                                asp-controller="Book">
+                            Delete
+                        </button>
+                        </td>
+                 
+                    </tr>
+              
+                    </table>
+                </form>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+

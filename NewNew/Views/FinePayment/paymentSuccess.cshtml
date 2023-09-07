@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model NewNew.Models.Domain.FinePayment
+
+<h2>Payment Success</h2>
+
+<div class="alert alert-success">
+    <p>Your payment was successful.</p>
+    <p>Payment ID: @Model.finePaymentId</p>
+    <p>Payment Amount: @Model.finePaymentAmount</p>
+    <p>Payment Date: @Model.finePaymentDate</p>
+    <p>Member ID: @Model.memberId</p>
+    <p>Fine ID: @Model.FineId</p>
+</div>

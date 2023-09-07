@@ -1,0 +1,50 @@
+﻿@model List<NewNew.Models.Domain.Book>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Library Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">View Book Details</h1>
+        <table class="table table-bordered">
+            <thead class="bg-primary text-white">
+                <tr>
+                    <th>Book Id</th>
+                    <th>Book Title</th>
+                    <th>Book Description</th>
+                    <th>Book ISBN</th>
+                    <th>Book Amount</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detail in Model)
+                {
+                    <tr>
+                        <td>@detail.bookId</td>
+                        <td>@detail.bookTitle</td>
+                        <td>@detail.bookDiscreption</td>
+                        <td>@detail.bookISBN</td>
+                        <td>@detail.bookAmount</td>
+                        <td><a href="@Url.Action("Index", "Book")" class="btn btn-primary">Back Home</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

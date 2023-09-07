@@ -1,0 +1,49 @@
+﻿@model NewNew.Models.AddAdminViewModel
+
+<h1 class="m-5"> Add Admin</h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+
+        <tr>
+            <th>Admin Id</th>
+                <td>
+                    <input type="text" asp-for="adminId" class="form-control"/>
+                </td>
+        </tr>
+        <tr>
+            <th>Admin FullName</th>
+            <td><input type="text" asp-for="adminFullName" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Admin Email</th>
+            <td><input type="text" asp-for="email" class="form-control" /></td>
+        </tr>
+       <tr>
+           <th>Admin PhoneNumber</th>
+            <td><input type="text" asp-for="phonNumber" class="form-control" /></td>
+       </tr>
+       <tr>
+           <th>Gender</th>
+           <td><input type="text" asp-for="gender" class="form-control"/></td>
+       </tr>
+       <tr>
+           <th>Password</th>
+           <th><input type="text" asp-for="password" class="form-control"/></th>
+       </tr>
+       
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </td>
+        </tr>
+
+
+    </table>
+
+
+</form>
+
+
+

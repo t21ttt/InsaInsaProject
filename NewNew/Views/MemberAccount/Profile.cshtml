@@ -1,0 +1,56 @@
+﻿@model NewNew.Models.Domain.Member
+
+<h1>@ViewData["Title"]</h1>
+
+
+
+
+<h1 class="m-5"> This is the member Profile </h1>
+<form method="post" action="EditProfile">
+
+
+    <table class="table table-bordered">
+   
+       
+     
+        <tr>
+            <th>Member Full Name </th>
+            <td><input type="text" asp-for="memberFullName" class="form-control" /></td>
+        </tr>
+
+        <tr>
+            <th> Gender </th>
+            <td><input type="text" asp-for="gender" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Email  </th>
+            <td><input type="text" asp-for="email" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Phone Number  </th>
+            <td><input type="text" asp-for="phoneNumber" class="form-control" /></td>
+        </tr>
+
+       
+            <tr>
+                <th>Member Passsword</th>
+                <td><input type="text" asp-for="memberPassword" class="form-control"/></td>
+            </tr> 
+            <tr>
+
+            </tr>
+            <th>Status</th>
+            <td><input type="text" asp-for="Status" class="form-control" readonly/></td>
+            <tr>
+        <td colspan="2">
+            <input type="submit" class="btn btn-primary" value="Submit" />
+        </td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+
+

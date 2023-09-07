@@ -1,0 +1,70 @@
+﻿@model NewNew.Models.AddBorrowBookViewModel
+
+<h1 class="m-5"> Add BorrowBook</h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+
+        <tr>
+            <th>BorrowBookDate</th>
+            <td><input type="date" asp-for="borrowBookDate" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Borrow Book DueData </th>
+            <td><input type="date" asp-for="borrowDueDate" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Member Name</th>
+            <td>
+                <select asp-for="memberId" asp-items="Model.Members" class="form-control"></select>
+
+            </td>
+        </tr>
+        <tr>
+
+        <tr>
+            <th>Book Copy Name </th>
+            <td>
+                <select asp-for="bookCopyId" asp-items="Model.Bcopy" class="form-control"></select>
+
+            </td>
+        </tr>
+       @* <tr>
+            <th>Is Returned?</th>
+            <td>
+                <div>
+                    <select asp-for="isReturned" class="form-control">
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>Is Notified?</th>
+            <td>
+                <div>
+                    <select asp-for="isNotified" class="form-control">
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                </div>
+            </td>
+        </tr>*@
+
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </td>
+        </tr>
+
+
+    </table>
+
+
+</form>
+
+
+

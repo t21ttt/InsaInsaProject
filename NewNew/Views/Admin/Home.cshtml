@@ -1,0 +1,302 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Addis Ababa University</title>
+    <link rel="icon" type="icon" href="~/Icons/books.png" asp-append-version="true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="~/Icons/fontawesome/css/fontawesome.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/Icons/fontawesome/css/brands.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/Icons/fontawesome/css/solid.css" rel="stylesheet" asp-append-version="true">
+    <link rel="stylesheet" href="style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/navbar.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="~/style.css" asp-append-version="true" />
+
+</head>
+
+<body>
+
+    <section class="master">
+
+        <section class="shader">
+
+            <section class="master-wrapper-one">
+
+                <section class="navbar">
+
+                    <div class="left-side">
+                        <img src="~/Icons/logo.svg" class="logo" alt="logo">
+                        <ul class="left-links">
+                            <li class="nav-link"><a href="#" class="nav-hover nav-link-ltr">Home</a></li>
+                           @*// <a href="@Url.Action("BookIndex", "HomeMember")" class="nav-link">View Books</a>*@
+                            <li class="nav-link"><a href="@Url.Action("about","Admin")"  class="nav-hover nav-link-ltr">About</a></li>
+                            <li class="nav-link"><a href="#contact-us" class="nav-hover nav-link-ltr">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="right-side">
+                        <ul class="right-links">
+                            <li class="nav-link login"><a href="@Url.Action("userlogin","MemberAccount")" class="nav-hover nav-link-ltr">Log
+                                    In</a></li>
+                            <li class="nav-link signup"><a href="@Url.Action("usersignup","MemberAccount")">Sign Up</a></li>
+                        </ul>
+                      
+                    </div>
+
+                </section>
+
+                <section class="hero">
+
+                    <div class="hero-text">
+                        <h1 class="hero-name">
+                            Addis Ababa University Library
+                        </h1>
+                        <p class="hero-desc">
+                            The place where you can find books you want with the ability to borrow and read!
+                        </p>
+                        <a href="@Url.Action("userlogin","MemberAccount")">
+                            <button class="goto-library hero-btn">Get Started</button>
+                        </a>
+                    </div>
+
+                    <div class="hero-image">
+                        <div class="hero-image-container">
+                            <img src="~/Images/hero.webp" alt="Hero Image">
+                        </div>
+                    </div>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <div class="master-wrapper-three">
+            <div class="boxes-container">
+                <div class="footer-boxes">
+                    <iframe src="https://player.vimeo.com/video/855028023?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            width="100%" height="100%" frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture"
+                            title="The Library - A Motivational Text"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <section class="master-wrapper-two">
+
+            <section class="rules">
+
+                <h1 class="section-name" id="rules">
+                    Simple Rules
+                </h1>
+
+                <div class="rule-card-container">
+                    <div class="rule-cards rule-one containers">
+                        <div class="left-image">
+                            <img src="~/Images/reading_re_29f8.svg" alt="" class="rule-images">
+                            <img src="~/Images/wave-haikei.svg" alt="" class="rule-images-wave">
+                        </div>
+                        <div class="right-text">
+                            <h2 class="rule-card-heading">
+                                Don't take a book that you're not gonna use
+                            </h2>
+                            <p class="rule-card-desc">
+                                Books are common tools of the society and since the books
+                                at our school are lent for free it's easy to take that service
+                                for granted. Please as soon as the book is useless to you return it
+                                back to the library.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rule-cards rule-two containers">
+                        <div class="left-image">
+                            <img src="~/Images/bibliophile_re_xarc.svg" alt="" class="rule-images">
+                            <img src="~/Images/wave-haikei.svg" alt="" class="rule-images-wave">
+                        </div>
+                        <div class="right-text">
+                            <h2 class="rule-card-heading">
+                                No writing on the books
+                            </h2>
+                            <p class="rule-card-desc">
+                                This is a common rule for a library. When taking a book responsibilities
+                                come with it. Use notebooks to memorize anything you want from the book.
+                                Not writing on the books is one responsibility.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rule-cards rule-three containers">
+                        <div class="left-image">
+                            <img src="~/Images/time_management_re_tk5w.svg" alt="" class="rule-images">
+                            <img src="~/Images/wave-haikei.svg" alt="" class="rule-images-wave">
+                        </div>
+                        <div class="right-text">
+                            <h2 class="rule-card-heading">
+                                Return books before your time is up
+                            </h2>
+                            <p class="rule-card-desc">
+                                Books can be lent for a single person at once only for 7 days and if the
+                                student doesn't return the book before the time is up he/she will have to
+                                pay a fee based on how many days have passed since the 7 day deadline.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="@Url.Action("userlogin","MemberAccount")">
+                    <button class="goto-library">The Library</button>
+                </a>
+                <div id="contact-us"></div>
+            </section>
+
+            <section class="contact-us">
+
+                <h1 class="section-name">
+                    Contact Us
+                </h1>
+
+                <div class="contact-container">
+                    <div class="map-container">
+                        <div class="map-bender">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d871.2621180531368!2d38.75967035239661!3d9.047193446643847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f699d69b67d%3A0xb8e439db1062fad6!2sJ.%20F.%20Kenedy%20Library!5e0!3m2!1sen!2set!4v1692112942340!5m2!1sen!2set"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.185570902739!2d38.75419827677033!3d9.04683106556838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f69f1dbdf67%3a0xb8a418693b6edef9!2z4yqg4yuy4yi1iogkoogjoogjoydhi6nhiplhiajhik3hillhibi!5e0!3m2!1sen!2set!4v1692112753681!5m2!1sen!2set" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="send-contact">
+                        <div class="contact-links">
+                            <a href="http://www.aau.edu.et/">
+                                <div class="each-link">
+                                    <i class="fa-solid fa-2x fa-book-atlas icons"></i>
+                                    <h3 class="web-link">Website</h3>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/AddisAbabaUniv">
+                                <div class="each-link">
+                                    <i class="fa-brands fa-2x fa-twitter icons"></i>
+                                    <h3 class="twitter-link">Twitter</h3>
+                                </div>
+                            </a>
+                            <a href="https://youtube.com">
+                                <div class="each-link">
+                                    <i class="fa-brands fa-2x fa-youtube icons"></i>
+                                    <h3 class="youtube-link">YouTube</h3>
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/people/Addis-Ababa-University/100064311447035/?ref=br_tf">
+                                <div class="each-link">
+                                    <i class="fa-brands fa-2x fa-facebook icons"></i>
+                                    <h3 class="facebook-link">Facebook</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="the-contact-form-container">
+                            <form action="" method="post" class="the-contact-form">
+                                <input type="text" name="fullname" id="fullname" placeholder="Full Name"
+                                    class="contact-inputs">
+                                <input type="email" name="email" id="email" placeholder="Email Address"
+                                    class="contact-inputs">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="Write Your Message Here" class="contact-inputs"></textarea>
+                                <button type="submit" name="submit" id="contact-submit"
+                                    class="contact-submit goto-library">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+        <section class="footer">
+
+            <div class="star-container">
+                <div class="footer-container">
+                    <div class="master-wrapper-four">
+                        <div class="second-side">
+                            <h1 class="footer-name">
+                                Menu
+                            </h1>
+                            <a href="#">
+                                <p class="footer-desc">Home</p>
+                            </a>
+                            <a href="@Url.Action("about","Admin")">
+                                <p class="footer-desc">About</p>
+                            </a>
+                            <a href="@Url.Action("userlogin","MemberAccount")">
+                                <p class="footer-desc">Login</p>
+                            </a>
+                            <a href="@Url.Action("usersignup","MemberAccount")">
+                                <p class="footer-desc">Signup</p>
+                            </a>
+                        </div>
+
+                        <div class="third-side">
+                            <h1 class="footer-name">
+                                Important Contacts
+                            </h1>
+                            <a href="tel:+251111239752">
+                                <p class="footer-desc">President Office</p>
+                            </a>
+                            <a href="tel:+251111231088">
+                                <p class="footer-desc">Academic Vice President</p>
+                            </a>
+                            <a href="tel:+251111239783">
+                                <p class="footer-desc">Administration and Student Services</p>
+                            </a>
+                            <a href="http://www.aau.edu.et/contacts/">
+                                <p class="footer-desc">More...</p>
+                            </a>
+                        </div>
+
+                        <div class="fourth-side">
+                            <h1 class="footer-name">
+                                Help & Support
+                            </h1>
+                            <a href="#rules">
+                                <p class="footer-desc">Rules and Regulations</p>
+                            </a>
+                            <a href="http://www.aau.edu.et/">
+                                <p class="footer-desc">Full Official Website</p>
+                            </a>
+                         <a
+                                href="https://www.google.com/maps/place/%e1%8a%a0%e1%8b%b2%e1%88%b5+%e1%8a%a0%e1%89%a0%e1%89%a3+%e1%8b%a9%e1%8a%92%e1%89%a8%e1%88%ad%e1%88%b2%e1%89%b2/9.0457714,38.7587805,1685m/data=!3m1!1e3!4m6!3m5!1s0x164b8f69f1dbdf67:0xb8a418693b6edef9!8m2!3d9.0468258!4d38.7590692!16s%2fg%2f11b6yhp0z0?entry=ttu">
+                                <p class="footer-desc">campuses</p>
+                            </a>
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fifth-side">
+                <hr />
+                <p>&copy; Copyright - All rights reserved - 2023</p>
+            </div>
+
+        </section>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="~/node_modules/chart.js/dist/chart.umd.js"></script>
+
+    <script src="~/charts.js"></script>
+
+</body>
+
+</html>

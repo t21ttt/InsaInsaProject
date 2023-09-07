@@ -1,0 +1,32 @@
+﻿@model NewNew.Models.AddPublisherViewModel
+
+<h1 class="m-5"> Add Publisher </h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+      
+        <tr>
+            <th>Publisher Name</th>
+            <td><input type="text" asp-for="publisherName" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Publisher Address </th>
+            <td><input type="datetime" asp-for="publisherAddress" class="form-control" /></td>
+        </tr>
+
+      
+       <tr>
+
+        <td colspan="2">
+         
+            <input type="submit" class="btn btn-primary" value="Submit" />
+        </td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+

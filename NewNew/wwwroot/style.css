@@ -1,0 +1,572 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+    transition: 0.3s ease-in-out;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.master {
+    /* background: #8ba7a9; */
+    background: url("Images/blob-scatter-haikei.svg");
+    background-size: cover;
+}
+
+.shader {
+    background: linear-gradient(180deg, rgba(128, 128, 128, 1) 0%, rgba(0, 212, 255, 0) 100%);
+    height: 100vh;
+    padding: 0px 50px;
+}
+
+.master-wrapper-one {
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: url("Images/Binary Kit/Black/Binary_black_012.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.master-wrapper-two {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 10vh;
+}
+
+.hero-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-name {
+    font-size: 60px;
+}
+
+.hero-desc {
+    margin: 30px 0px 70px 0px;
+    font-size: x-large;
+}
+
+.hero-search {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.hero-image {
+    width: 40%;
+}
+
+.hero-image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dashboards */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("Images/Binary Kit/Black/Binary_black_001.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.section-name {
+    font-size: 40px;
+    color: white;
+    text-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 50px;
+}
+
+#motivational-video {
+    padding-bottom: 20px;
+}
+
+.dash-container {
+    max-width: 1200px;
+    height: 700px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containers {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.category-dash {
+    width: 100%;
+    height: 30%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-explanation {
+    padding-right: 20px;
+    width: 40%;
+    overflow: hidden;
+}
+
+.category-graph-container {
+    width: 37%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.category-bar {
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-line {
+    border: 1px solid rgb(113, 113, 113);
+    height: 100%;
+    margin-left: 20px;
+}
+
+.top-category {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rates {
+    display: flex;
+    align-items: center;
+}
+
+.arrows {
+    padding-right: 5px;
+}
+
+.top-names {
+    font-size: medium;
+}
+
+.top-amounts {
+    font-size: xx-large;
+}
+
+.compound-dash {
+    display: flex;
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-dash {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bar-dash-graph-container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-dash-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.multiple-trend {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-trend {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.charts-dash {
+    height: 46%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-chart {
+    height: 100%;
+    width: 60%;
+}
+
+.right-chart {
+    height: 100%;
+    width: 37%;
+}
+
+.available-container,
+.borrowed-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-dash-desc {
+    margin-bottom: 8px;
+}
+
+.book-trend-graph {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.graph-heading {
+    padding-bottom: 5px;
+}
+
+.book-trend-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    padding-right: 20px;
+}
+
+.this-month-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rules Section */
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("Images/Binary Kit/Black/Binary_black_002.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.rule-card-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.rule-cards {
+    max-width: 300px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    padding: 0px;
+}
+
+.rule-images {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.rule-images-wave {
+    margin-top: -4px;
+    width: 100%;
+}
+
+.left-image {
+    width: 100%;
+    height: 40%;
+    background: url("Images/stacked-waves-haikei.svg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rule-card-heading {
+    padding-bottom: 20px;
+}
+
+.goto-library {
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    background: url("Images/cloudy-sky.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.goto-library:hover {
+    background: white;
+    color: #333333;
+}
+
+.hero-btn {
+    background: url("Images/Binary Kit/Black/Binary_black_011.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 200px;
+    font-family: monospace;
+}
+
+/* Contact Us Section */
+
+#contact-us {
+    height: 50px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("Images/Binary Kit/Black/Binary_black_011.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 100px;
+}
+
+.map-container {
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+
+.map-bender {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border: 10px solid #808080;
+}
+
+.send-contact {
+    width: 35%;
+}
+
+.contact-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.each-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.icons {
+    padding-right: 10px;
+}
+
+.fa-book-atlas {
+    color: #283D3B;
+}
+
+.fa-twitter {
+    color: #1c9cea;
+}
+
+.fa-youtube {
+    color: #ef0000;
+}
+
+.fa-facebook {
+    color: #176fe4;
+}
+
+.contact-inputs {
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-weight: 600;
+    resize: none;
+}
+
+.the-contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-submit {
+    background: transparent;
+    margin-bottom: 0px;
+}
+
+/* Footer */
+
+.footer {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(6, 9, 39);
+    padding: 0px 50px;
+}
+
+.star-container {
+    background: url("Images/footer-star.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-container {
+    min-height: 100%;
+    width: 100%;
+    background: url("Images/Binary Kit/Black/Binary_black_011.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.master-wrapper-three {
+    max-width: 1000px;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px 100px 0px;
+    background: url("Images/Binary Kit/Black/Binary_black_001.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.boxes-container {
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(2px);
+}
+
+.footer-boxes {
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    width: 1020px;
+    height: 564px;
+}
+
+.master-wrapper-four {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.fifth-side {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.fifth-side > hr {
+    margin: 20px 0px;
+}
+
+.footer-name {
+    padding-bottom: 20px;
+}
+
+.footer-desc {
+    font-size: small;
+}

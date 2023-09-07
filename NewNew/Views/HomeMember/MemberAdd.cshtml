@@ -1,0 +1,44 @@
+﻿@model NewNew.Models.AddMemberViewModel
+
+<h1 class="m-5"> Add Members</h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Member Id</th>
+            <td><input type="text" asp-for="memberId" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Member Full Name</th>
+            <td><input type="text" asp-for="memberFullName" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="text" asp-for="gender" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="text" asp-for="email" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td><input type="text" asp-for="phoneNumber" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Member Password</th>
+            <td><input type="text" asp-for="memberPassword" class="form-control" /></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+

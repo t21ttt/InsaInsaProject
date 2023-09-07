@@ -1,0 +1,77 @@
+.master-wrapper {
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    width: 80%;
+    height: 70vh;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+
+.about-bender {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left-side {
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-name {
+    font-size: 70px;
+    color: #8ba7a9;
+}
+
+.read-more {
+    padding: 5px 20px;
+    background: transparent;
+    border: solid 2px #333333;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background: #333333;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background: transparent;
+    color: #333333;
+}
+
+.about-right-side {
+    width: 50%;
+    height: 100%;
+    background: rgb(51,51,51);
+}
+
+.about-artifact {
+    width: 100%;
+    height: 100%;
+    background: url("Images/Binary Kit/Black/Binary_black_015.png");
+    background-size: cover;
+    background-position: left;
+}

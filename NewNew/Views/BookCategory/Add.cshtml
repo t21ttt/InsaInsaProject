@@ -1,0 +1,30 @@
+﻿@model NewNew.Models.AddBookCategoryViewModel
+@{
+    ViewBag.Title = "Add";
+}
+<h1 class="m-5"> Add BookCategory</h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+       
+        <tr>
+            <th>Book Category Name</th>
+            <td><input type="text" asp-for="categoryName" class="form-control" /></td>
+        </tr>
+       
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </td>
+        </tr>
+
+    </table>
+    <div>
+        @ViewBag.Message
+    </div>
+
+</form>
+
+
+

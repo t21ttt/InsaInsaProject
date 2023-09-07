@@ -1,0 +1,106 @@
+﻿@model NewNew.Models.UpdateFineViewModel
+
+
+<h1>Edit Fine</h1>
+
+<div class="card mb-4 mt-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+       Edit Books
+        <a href="@Url.Action("Index", "Fine")" class="float-end btn btn-sm btn-success">View All</a>
+
+    </div>
+
+    <div class="card-body">
+       
+        <form method="post" action="View" class="mt-5">
+            <table class="table table-bordered">
+         <tr>
+                    <th>Fine Id</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="FineId" reedonly />
+                    </td>
+         </tr>
+                <tr>
+                    <th>Fine Amount</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="FineAmount" reedonly />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Fine Date</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="FineDate" reedonly />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Borrow Book Id</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="borrowBookId" reedonly />
+                    </td>
+                </tr>
+                   <tr>
+                        <td colspan="2">
+                            <input type="submit"  class="btn btn-primary" value="Submit"/>
+                        <button type="submit" class="btn btn-danger" asp-action="Delete"
+                                asp-controller="Fine">
+                            Delete
+                        </button>
+                        </td>
+                 
+                    </tr>
+              
+                    </table>
+                </form>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Edit Fine</h1>
+<form method="post" action="View" class="mt-5">
+
+    <div class="mb-3">
+        <label for="" class="form-label">Fine id</label>
+        <input type="text" class="form-control" asp-for="FineId" reedonly />
+    </div>
+
+    <div class="mb-3">
+        <label for="" class="form-label">Fine Amount</label>
+        <input type="text" class="form-control" asp-for="FineAmount " />
+    </div>
+
+    <div class="mb-3">
+        <label for="" class="form-label">Fine Date</label>
+        <input type="text" class="form-control" asp-for="FineDate" />
+    </div>
+
+    <div class="mb-3">
+        <label for="" class="form-label">Borrow BookId</label>
+        <input type="text" class="form-control" asp-for="borrowBookId" />
+    </div>
+
+
+    <button type="submit" class=" btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-danger" asp-action="Delete"
+            asp-controller="Fine">
+        Delete
+    </button>
+
+</form>

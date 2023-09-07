@@ -1,0 +1,67 @@
+﻿@model List<NewNew.Models.Domain.Member>
+
+<h1>Members</h1>
+<div class="card mb-4 mt-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        All Book Categories
+        <a href="@Url.Action("Add", "Member")" class="float-end btn btn-info">Add New</a>
+
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table id="datatablesSimple" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Member Full Name</th>
+                        <th>gender</th>
+                        <th>email</th>
+                        <th>phoneNumber</th>
+                        <th>memberPassword</th>
+                        <th>Action</th>
+
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>#</th>
+                        <th>Member Full Name</th>
+                        <th>gender</th>
+                        <th>email</th>
+                        <th>phoneNumber</th>
+                        <th>memberPassword</th>
+                        <th>Action</th>
+
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @{
+                        int counter = 1;
+                    }
+                    @foreach (var member in Model)
+                    {
+                        <tr>
+                            <td>@counter</td>
+                            <td>@member.memberFullName</td>
+                            <td>@member.gender</td>
+                            <td>@member.email</td>
+                            <td>@member.phoneNumber</td>
+                            <td>@member.memberPassword </td>
+                            <td><a href="@Url.Action("View", "Member", new { id = member.memberId })" class="btn btn-info">Edit</a></td>
+                            <td><a href="@Url.Action("Index", "HomeMember", new { id = member.memberId })" class="btn btn-info"> --home</a></td>
+
+
+                        </tr>
+                        counter++;
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="~/js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+<script src="~/js/datatables-simple-demo.js"></script>

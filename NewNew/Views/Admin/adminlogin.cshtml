@@ -1,0 +1,94 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Addis Ababa University</title>
+    <link rel="icon" type="icon" href="Icons/books.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link href="~/Icons/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="~/Icons/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="~/Icons/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/navbar.css">
+    <link rel="stylesheet" href="~/login.css">
+</head>
+
+<body>
+
+    <section class="master">
+
+        <section class="master-wrapper">
+
+            <section class="navbar">
+
+                <div class="left-side">
+                    <img src="~/Icons/logo.svg" class="logo" alt="logo">
+                    <ul class="left-links">
+                        <li class="nav-link"><a href="@Url.Action("Home","Admin")" class="nav-hover nav-link-ltr">Home</a></li>
+                        <li class="nav-link"><a href="@Url.Action("about","Admin")" class="nav-hover nav-link-ltr">About</a></li>
+                        <li class="nav-link">
+                            <a href="@Url.Action("Home","Admin")" class="nav-hover nav-link-ltr">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-side">
+                    <ul class="right-links">
+                        <li class="nav-link signup"><a href="mailto:grandwarrior11@gmail.com">Contact Office</a></li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="login-hero">
+
+                <div class="login-container">
+                    <div class="left-login">
+                        <h1 class="login-desc-name">
+                            Welcome Back
+                        </h1>
+                        <p class="login-desc-text">
+                            Stay Connected to our library.
+                            If you don't have an account please
+                            contact your office to register you
+                            as an admin.
+                        </p>
+                        <a href="mailto:grandwarrior11@gmail.com">
+                            <button class="go-to-signup">Contact Office</button>
+                        </a>
+                    </div>
+                    <div class="right-login">
+                        <h1 class="login-name">
+                            Admin
+                            
+
+                        </h1>
+                        <form method="post" action="/Admin/adminlogin" class="login-form">
+                            <input type="email" name="email" id="email" placeholder="Email Address" class="login-inputs" required>
+                            <input type="password" name="password" id="password" placeholder="Password" class="login-inputs" required>
+                            <a href="#" class="forget">Forgot Your Password?</a>
+                            <button class="get-in">Log In</button>
+                            <a href="@Url.Action("userlogin","MemberAccount")">
+                                <p class="go-to-admin-signup">I'm a User</p>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>

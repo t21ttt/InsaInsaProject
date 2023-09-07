@@ -1,0 +1,76 @@
+﻿@model NewNew.Models.UpdateBookCopyViewModel
+
+
+<h1>Edit BookCopy</h1>
+
+<div class="card mb-4 mt-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+       Edit Books
+        <a href="@Url.Action("Index", "BookCopy")" class="float-end btn btn-sm btn-success">View All</a>
+
+    </div>
+
+    <div class="card-body">
+       
+        <form method="post" action="View" class="mt-5">
+            <table class="table table-bordered">
+         <tr style="display:none;">
+                    <th>Book Copy id</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookCopyId" reedonly />
+                    </td>
+         </tr>
+                <tr>
+                    <th>Year Of Published</th>
+                    <td>
+                        <input type="date" class="form-control" asp-for="yearOfPublished" reedonly />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>publisherId</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="PublisherId" reedonly />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Book Id</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookId" reedonly />
+                    </td>
+                </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit"  class="btn btn-primary" value="Submit"/>
+                        <button type="submit" class="btn btn-danger" asp-action="Delete"
+                                asp-controller="BookCopy">
+                            Delete
+                        </button>
+                        </td>
+                 
+                    </tr>
+              
+                    </table>
+                </form>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

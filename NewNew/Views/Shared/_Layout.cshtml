@@ -1,0 +1,299 @@
+﻿@using NewNew.Models.Domain;
+<!DOCTYPE html>
+             <html lang="en">
+                     <head>
+                                   <meta charset="utf-8" />
+                                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                                    <meta name="description" content="" />
+                                    <meta name="author" content="" />
+	                                <title>Dashboard - SB Admin</title>
+                                    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+                                    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+                                    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+                     </head>
+                <body class="sb-nav-fixed">
+                    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+                        <!-- Navbar Brand-->
+                        <a class="navbar-brand ps-3" href="index.html">Start Bootstrap</a>
+                        <!-- Sidebar Toggle--> 
+
+
+
+
+
+                    <style>
+                        .link {
+                                        display: block;
+                                        padding: 10px;
+                                        color: #fff;
+                                        text-decoration: none;
+                                        transition: background-color 0.3s ease;
+                         }
+                         .link:hover {
+                                background-color: #555;
+                            }
+                    </style>
+
+
+
+
+                    <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+                     <!-- Navbar Search-->
+                     <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                     <div class="input-group">
+                   @*  <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>*@
+                    </div>
+                   </form>
+                 <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+
+
+
+@*
+                    <li><a class="dropdown-item" href="#!">Settings</a></li>
+                    <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                    <li><hr class="dropdown-divider" /></li>*@
+                    <li><a class="dropdown-item" href="@Url.Action("adminsignup","Admin")">Admin Signup</a></li>
+                    <li><a class="dropdown-item" href="@Url.Action("Logout","Admin")">Logout</a></li>
+                
+                
+
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Core</div>
+                        <a class="nav-link" href="@Url.Action("Index","Home")">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                           
+                            
+                            
+                            
+                            
+                            
+                            Dashboard
+                       
+                        
+                        
+                        
+                        
+                        </a>
+                        <div class="sb-sidenav-menu-heading">Interface</div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseAuthor" aria-expanded="false" aria-controls="collapseAuthor">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Author
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseAuthor" aria-labelledby="headingAuthor" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                             @*   <a href="@Url.Action("Add", "Author")" class="nav-link">Add Author</a>*@
+                                <a href="@Url.Action("View", "Author")" class="nav-link">View Authors</a>
+                            </nav>
+                        </div>
+
+                      @*  <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapse
+                        </a>
+                        <div class="collapse" id="collapseBookAuthor" aria-labelledby="headingBookAuthor" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a href="@Url.Action("Index", "BookAuthor")" class="nav-link">View Book Authors</a>
+                            </nav>
+                        </div>
+*@
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseBookCategory" aria-expanded="false" aria-controls="collapseBookCategory">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                           
+                            
+                            
+                            Book Category
+                            
+                            
+                           <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseBookCategory" aria-labelledby="headingBookCategory" data-bs-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                     @*   <a href="@Url.Action("Add", "BookCategory")" class="nav-link">Add BookCategory</a>*@
+                                        <a href="@Url.Action("View", "BookCategory")" class="nav-link">View BookCategory</a>
+                                    </nav>
+                        </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseBooks" aria-expanded="false" aria-controls="collapseBooks">
+                                  <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                   Books
+                                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                        <div class="collapse" id="collapseBooks" aria-labelledby="headingBooks" data-bs-parent="#sidenavAccordion">
+                                            <nav class="sb-sidenav-menu-nested nav">
+                                              @*  <a href="@Url.Action("Add", "Book")" class="nav-link">Add Book</a>*@
+                                                <a href="@Url.Action("View", "Book")" class="nav-link">View Books</a>
+                                            </nav>
+                                        </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseMembers" aria-expanded="false" aria-controls="collapseMembers">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Members
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseMembers" aria-labelledby="headingMembers" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="@Url.Action("Index","Member")">All Members</a>
+                               @* <a class="nav-link" href="@Url.Action("View", "Member")">Delete Members</a>*@
+                            </nav>
+                        </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseBookCopy" aria-expanded="false" aria-controls="collapseBookCopy">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            
+                            
+                            
+                            
+                            
+                              BookCopy
+                           
+                            
+                            
+                            
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseBookCopy" aria-labelledby="headingBookCopy" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                               @* <a class="nav-link" href="@Url.Action("Add", "BookCopy")">Add BookCopy</a>*@
+                                <a class="nav-link" href="@Url.Action("View", "BookCopy")">View BookCopy</a>
+                            </nav>
+                        </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseReservation" aria-expanded="false" aria-controls="collapseReservation">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                               
+                               
+                               Reservation
+                            
+                                 
+                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseReservation" aria-labelledby="headingReservation" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="@Url.Action("Index", "Reservation")">View Reserved Books</a>
+                            </nav>
+                        </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseBorrowBooks" aria-expanded="false" aria-controls="collapseBorrowBooks">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Borrow Books
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseBorrowBooks" aria-labelledby="headingBorrowBooks" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="@Url.Action("BorrowBookIndex", "BorrowBook")">
+
+                                               Book Borrow    
+                                    
+                                    </a>
+                                    </nav>
+                                    </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePublisher" aria-expanded="false" aria-controls="collapsePublisher">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Publishers
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapsePublisher" aria-labelledby="headingPublisher" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="@Url.Action("Index", "Publisher")">View Publishers</a>
+                              @*  <a class="nav-link" href="@Url.Action("Add", "Publisher")">Add New Publisher</a>
+                                <a class="nav-link" href="@Url.Action("View", "Publisher")">Edit Publisher</a>*@
+                            </nav>
+                        </div>
+
+                       @* <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            Pages
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                                  <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                   <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                    Authentication
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                       <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="login.html">Login</a>
+                                        <a class="nav-link" href="register.html">Register</a>
+                                       
+                                        <a class="nav-link" href="password.html">Forgot Password</a>
+                                    </nav>
+                                </div>
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                    Error
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="401.html">401 Page</a>
+                                        <a class="nav-link" href="404.html">404 Page</a>
+                                        <a class="nav-link" href="500.html">500 Page</a>
+                                    </nav>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="sb-sidenav-menu-heading">Addons</div>
+                        <a class="nav-link" href="charts.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                            Charts
+                        </a>
+                        <a class="nav-link" href="tables.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Tables
+                        </a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Logged in as:</div>
+                    Start Bootstrap
+                </div>*@
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+           <div>
+               @RenderBody()
+           </div>
+           @* <footer class="py-4 bg-light mt-auto">
+                                 <div class="container-fluid px-4">
+                                 <div class="d-flex align-items-center justify-content-between small">
+                                 <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                                 <div>
+                                 <a href="#">Privacy Policy</a>
+                                 &middot;
+                                 <a href="#">Terms &amp; Conditions</a>
+                      </div>
+                      </div>
+                </div>
+            </footer>*@
+        </div>
+    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	                <script src="~/js/scripts.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+	                <script src="~/assets/demo/chart-area-demo.js"></script>
+                    <script src="~/js/datatables-simple-demo.js"></script>
+                    <script src="~/assets/demo/chart-bar-demo.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+                    <script src="~/js/datatables-simple-demo.js"></script>
+
+
+
+  
+    
+</body>
+</html>

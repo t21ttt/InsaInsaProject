@@ -1,0 +1,28 @@
+﻿@model NewNew.Models.UpdateAuthorViewModel
+
+
+<h1>Edit Author</h1>
+<form method="post" action="View" class="mt-5">
+
+    <div class="mb-3">
+        <label for="" class="form-label">Author Id</label>
+        <input type="text" class="form-control" asp-for="authorId" reedonly />
+    </div>
+
+    <div class="mb-3">
+        <label for="" class="form-label">Author FullName</label>
+        <input type="text" class="form-control" asp-for="authorFullName" />
+    </div>
+
+    <div class="mb-3">
+        <label for="" class="form-label">Email</label>
+        <input type="text" class="form-control" asp-for="email" />
+    </div>
+
+    <button type="submit" class=" btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-danger" asp-action="Delete"
+            asp-controller="Author">
+        Delete
+    </button>
+
+</form>

@@ -1,0 +1,52 @@
+﻿@model NewNew.Models.AddFinePaymentViewModel
+
+<h1 class="m-5"> Add Fine Payments For Books Which Are Not Returned</h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+    
+        <tr>
+            <th>Fine Payment Amount</th>
+            <td><input type="text" asp-for="finePaymentAmount" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Fine Payment Date</th>
+            <td><input type="date" asp-for="finePaymentDate" class="form-control" /></td>
+        </tr>
+
+        <tr>
+            <th>Member Id</th>
+            <td>
+
+
+                <select asp-for="memberId" asp-items="Model.Members" class="form-control"></select>
+
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <th>Fine Id</th>
+            <td>
+
+
+                <select asp-for="FineId" asp-items="Model.fines" class="form-control"></select>
+
+
+            </td>
+        </tr>
+
+
+        <td colspan="2">
+            <input type="submit" class="btn btn-primary" value="Submit" />
+        </td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+

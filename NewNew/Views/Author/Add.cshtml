@@ -1,0 +1,31 @@
+﻿@model NewNew.Models.AddAuthorViewModel
+
+<h1 class="m-5"> Add Author Of The Book </h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+      
+        <tr>
+            <th> Author Full Name </th>
+            <td><input type="text" asp-for="authorFullName" class="form-control" /></td>
+
+        </tr>
+
+        <tr>
+            <th> Author Email </th>
+            <td><input type="text" asp-for="email" class="form-control" /></td>
+
+        </tr>
+        <tr>
+        <td colspan="2">
+            <input type="submit" class="btn btn-primary" value="Submit" />
+        </td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+

@@ -1,0 +1,553 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NewNew.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NewNew.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\bell.png",
+      "PackagePath": "staticwebassets\\Icons\\bell.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\books.png",
+      "PackagePath": "staticwebassets\\Icons\\books.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\Icons\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\green-arrow-up.svg",
+      "PackagePath": "staticwebassets\\Icons\\green-arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\icons8-arrow-50.png",
+      "PackagePath": "staticwebassets\\Icons\\icons8-arrow-50.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\icons8-search.svg",
+      "PackagePath": "staticwebassets\\Icons\\icons8-search.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\logo.svg",
+      "PackagePath": "staticwebassets\\Icons\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\loupe.png",
+      "PackagePath": "staticwebassets\\Icons\\loupe.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\magnifying-glass.png",
+      "PackagePath": "staticwebassets\\Icons\\magnifying-glass.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\red-arrow-down.svg",
+      "PackagePath": "staticwebassets\\Icons\\red-arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\right-arrow (1).png",
+      "PackagePath": "staticwebassets\\Icons\\right-arrow (1).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\right-arrow.png",
+      "PackagePath": "staticwebassets\\Icons\\right-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\waveOne.svg",
+      "PackagePath": "staticwebassets\\Icons\\waveOne.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\waveThree.svg",
+      "PackagePath": "staticwebassets\\Icons\\waveThree.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Icons\\waveTwo.svg",
+      "PackagePath": "staticwebassets\\Icons\\waveTwo.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\Binary Kit\\.DS_Store",
+      "PackagePath": "staticwebassets\\Images\\Binary Kit\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\Binary Kit\\Black\\Binary_black_001.png",
+      "PackagePath": "staticwebassets\\Images\\Binary Kit\\Black\\Binary_black_001.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\Binary Kit\\Black\\Binary_black_002.png",
+      "PackagePath": "staticwebassets\\Images\\Binary Kit\\Black\\Binary_black_002.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\Binary Kit\\Black\\Binary_black_011.png",
+      "PackagePath": "staticwebassets\\Images\\Binary Kit\\Black\\Binary_black_011.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\Binary Kit\\Black\\Binary_black_012.png",
+      "PackagePath": "staticwebassets\\Images\\Binary Kit\\Black\\Binary_black_012.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\Binary Kit\\Black\\Binary_black_015.png",
+      "PackagePath": "staticwebassets\\Images\\Binary Kit\\Black\\Binary_black_015.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\bibliophile_re_xarc.svg",
+      "PackagePath": "staticwebassets\\Images\\bibliophile_re_xarc.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\blob-scatter-haikei.svg",
+      "PackagePath": "staticwebassets\\Images\\blob-scatter-haikei.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\cloudy-sky.jpg",
+      "PackagePath": "staticwebassets\\Images\\cloudy-sky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\footer-star.svg",
+      "PackagePath": "staticwebassets\\Images\\footer-star.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\hero.webp",
+      "PackagePath": "staticwebassets\\Images\\hero.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\reading_re_29f8.svg",
+      "PackagePath": "staticwebassets\\Images\\reading_re_29f8.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\stacked-waves-haikei.svg",
+      "PackagePath": "staticwebassets\\Images\\stacked-waves-haikei.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\time_management_re_tk5w.svg",
+      "PackagePath": "staticwebassets\\Images\\time_management_re_tk5w.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\Images\\wave-haikei.svg",
+      "PackagePath": "staticwebassets\\Images\\wave-haikei.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\about.css",
+      "PackagePath": "staticwebassets\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\charts.js",
+      "PackagePath": "staticwebassets\\charts.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\confirm.js",
+      "PackagePath": "staticwebassets\\confirm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\login.css",
+      "PackagePath": "staticwebassets\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\navbar.css",
+      "PackagePath": "staticwebassets\\navbar.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\signup.css",
+      "PackagePath": "staticwebassets\\signup.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\NewNew\\NewNew\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NewNew.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.NewNew.props",
+      "PackagePath": "build\\NewNew.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.NewNew.props",
+      "PackagePath": "buildMultiTargeting\\NewNew.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.NewNew.props",
+      "PackagePath": "buildTransitive\\NewNew.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,35 @@
+﻿@model NewNew.Models.AddFineViewModel
+
+<h1 class="m-5"> Add Fine For Books Which Are Not Returned</h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+     
+        <tr>
+            <th>Fine Amount</th>
+            <td><input type="number" asp-for="FineAmount" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Fine Date </th>
+            <td><input type="date" asp-for="FineDate" class="form-control" /></td>
+        </tr>
+      
+        <tr>
+            <th>Borrow Book Id </th>
+            <td><input type="text" asp-for="bBorrow" class="form-control" /></td>
+        </tr>
+
+        <tr>
+       
+        <td colspan="2">
+            <input type="submit" class="btn btn-primary" value="Submit" />
+        </td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+

@@ -1,0 +1,85 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Addis Ababa University</title>
+    <link rel="icon" type="icon" href="Icons/books.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="~/Icons/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="~/Icons/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="~/Icons/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/navbar.css">
+    <link rel="stylesheet" href="~/about.css">
+</head>
+
+<body>
+
+    <section class="master">
+
+        <section class="master-wrapper">
+
+            <section class="navbar">
+
+                <div class="left-side">
+                    <img src="~/Icons/logo.svg" class="logo" alt="logo">
+                    <ul class="left-links">
+                        <li class="nav-link"><a href="@Url.Action("Home","Admin")" class="nav-hover nav-link-ltr">Home</a></li>
+                        <li class="nav-link"><a href="#" class="nav-hover nav-link-ltr">About</a></li>
+                        <li class="nav-link"><a href="@Url.Action("Home","Admin")" class="nav-hover nav-link-ltr">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-side">
+                    <ul class="right-links">
+                        <li class="nav-link login"><a href="@Url.Action("userlogin","MemberAccount")" class="nav-hover nav-link-ltr">Log In</a></li>
+                        <li class="nav-link signup"><a href="@Url.Action("usersignup","MemberAccount")">Sign Up</a></li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="about-hero">
+
+                <div class="about-container">
+                    <div class="about-bender">
+                        <div class="about-left-side">
+                            <h1 class="about-name">
+                                About<br>Us
+                            </h1>
+                            <p class="about-desc">
+                                Modern higher education in Ethiopia began with the University College of Addis Ababa
+                                (UCAA) founding in 1950. At the same time, the UCAA Library was set up to serve the
+                                student population of 71 and 9 faculty members at the Arat kilo campus.
+                            </p>
+                            <a href="http://www.aau.edu.et/library/read-more/">
+                                <button class="read-more">Read More</button>
+                            </a>
+                        </div>
+                        <div class="about-right-side">
+                            <div class="about-artifact">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>

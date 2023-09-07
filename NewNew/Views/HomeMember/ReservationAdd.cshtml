@@ -1,0 +1,44 @@
+﻿@model NewNew.Models.AddReservationViewModel
+
+<h1 class="m-5"> Add Reservation Books In The DataBase </h1>
+<form method="post" action="Add">
+
+
+    <table class="table table-bordered">
+
+
+        <tr>
+            <th>Member Name</th>
+            <td>
+                <select asp-for="memberId" asp-items="Model.Members" class="form-control"></select>
+            </td>
+        </tr>
+        <tr>
+            <th>Book Name</th>
+            <td>
+
+
+                <select asp-for="bookId" asp-items="Model.Books" class="form-control"></select>
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <th>Reservtion Date </th>
+            <td><input type="date" asp-for="reservatonDate" class="form-control" /></td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+

@@ -1,0 +1,80 @@
+﻿@model NewNew.Models.UpdateReservationViewModel
+
+<h1>Edit Reservation</h1>
+
+<div class="card mb-4 mt-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+       Edit Reservation
+        <a href="@Url.Action("Index", "Reservation")" class="float-end btn btn-sm btn-success">View All</a>
+
+    </div>
+
+    <div class="card-body">
+       
+        <form method="post" action="View" class="mt-5">
+            <table class="table table-bordered">
+         
+                <tr>
+                    <th>Reservation ID</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="ReservationId" readonly />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Member Id</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="memberId" readonly />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Book ID</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="bookId" readonly />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Reservation Date</th>
+                    <td>
+                        <input type="date" class="form-control" asp-for="reservatonDate"  />
+                    </td>
+                </tr>
+
+
+              <tr>
+                        <td colspan="2">
+                            <input type="submit"  class="btn btn-primary" value="Submit"/>
+                        <button type="submit" class="btn btn-danger" asp-action="Delete"
+                                asp-controller="Reservation">
+                            Delete
+                        </button>
+                        </td>
+                 
+                    </tr>
+              
+                    </table>
+                </form>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

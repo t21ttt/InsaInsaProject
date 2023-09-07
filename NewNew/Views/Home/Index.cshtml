@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <main>
+        <div class="container-fluid px-4">
+            <h1 class="mt-4">Admin Dashboard</h1>
+            <ol class="breadcrumb mb-4">
+                <li class="breadcrumb-item active">Admin Dashboard</li>
+            </ol>
+            <div class="row card-deck">
+                <div class="col-xl-3 col-md-6">
+                    <div class="card bg-dark text-white mb-4 custom-card-width" style="height: 200px;">
+                        <div class="card-body">All Books</div>
+                        <div class="card-footer d-flex align-items-center justify-content-between">
+                            <a class="small text-white stretched-link" href="@Url.Action("Index","Book")">View Details</a>
+                            <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card bg-dark text-white mb-4 custom-card-width" style="height: 200px;">
+                        <div class="card-body">All Members</div>
+                        <div class="card-footer d-flex align-items-center justify-content-between">
+                            <a class="small text-white stretched-link" href="@Url.Action("Index","Member")">View Details</a>
+                            <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card bg-dark text-white mb-4 custom-card-width" style="height: 200px;">
+                        <div class="card-body">Borrowed Book</div>
+                        <div class="card-footer d-flex align-items-center justify-content-between">
+                            <a class="small text-white stretched-link" href="@Url.Action("BorrowBookIndex","BorrowBook")">View Details</a>
+                            <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card bg-dark text-white mb-4 custom-card-width" style="height: 200px;">
+                        <div class="card-body">Fined Book</div>
+                        <div class="card-footer d-flex align-items-center justify-content-between">
+                            <a class="small text-white stretched-link" href="@Url.Action("Index","Fine")">View Details</a>
+                            <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .custom-card-width {
+                   
+                }
+            </style>
+        </div>
+    </main>
+</div>

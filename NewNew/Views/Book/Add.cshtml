@@ -1,0 +1,50 @@
+﻿@model NewNew.Models.AddBookViewModel
+
+<h1 class="m-5"> Add Books</h1>
+<form method="post" action="Add" enctype="multipart/form-data">
+    <table class="table table-bordered">
+        <tr>
+            <th>Book Title</th>
+            <td><input type="text" asp-for="bookTitle" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Book ISBN</th>
+            <td><input type="text" asp-for="bookISBN" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Book Description</th>
+            <td><input type="text" asp-for="bookDiscreption" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Book Amount</th>
+            <td><input type="text" asp-for="bookAmount" class="form-control" /></td>
+        </tr>
+        <tr>
+            <th>Book Category</th>
+            <td>
+                <select asp-for="bookCategroryId" asp-items="Model.Categories" class="form-control"></select>
+            </td>
+        </tr>
+        <tr>
+            <th>Author</th>
+            <td>
+                <select asp-for="authorId" asp-items="Model.Authors" class="form-control"></select>
+            </td>
+        </tr>
+        @*<tr>
+            <th>Profile Image</th>
+            <td>
+                <input type="file" asp-for="ProfileImage" class="form-control" />
+                <span asp-validation-for="ProfileImage" class="text-danger"></span>
+            </td>
+        </tr>*@
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+
